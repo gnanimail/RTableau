@@ -12,4 +12,4 @@ bms.data <- rbind(bms.train[,-12], bms.test)
 bms.data$Item_Weight[is.na(bms.data$Item_Weight)] <- mean(bms.data$Item_Weight, na.rm = T)
 
 # Save the data frame with .RData
-save(bms.data, file=Practice Problem Big Mart Sales III/BigDataMart.RData")
+save(bms.data, file="Practice Problem Big Mart Sales III/BigDataMart.RData")
